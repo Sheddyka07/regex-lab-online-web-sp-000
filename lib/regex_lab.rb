@@ -1,4 +1,5 @@
 def starts_with_a_vowel?(word)
+  word.split
   word.scan(/\w+[aeiou][0]/)
 end
 
