@@ -7,7 +7,7 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  uning_words = text.scan(/^un||UN\w+ing||ING/)
+  uning_words = text.scan(/^[un][UN]\w+[ing][ING]/)
   
 end
 
